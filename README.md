@@ -3,6 +3,27 @@
 **FST** is a robust, model-agnostic algorithm designed to enhance regression model reliability by iteratively identifying and training on data points that are hardest to predict. By focusing on problematic samples, FST achieves more stable and improved predictive performance compared to traditional random splitting techniques.
 
 ---
+## Installation
+
+You can install the `fst` package in the following ways:
+
+### Option 1: Install directly from GitHub
+
+```bash
+pip install git+https://github.com/abuistar8/fundamental-split-technique.git
+```
+
+### Option 2: Install from local directory
+
+If you’ve cloned or downloaded the repo:
+```bash
+cd fundamental-split-technique
+pip install .
+```
+Use it like this is python
+```python
+from fst import FST
+```
 
 ## 📌 Overview
 
